@@ -1,0 +1,17 @@
+.SideBar{
+    border: 1px solid black;
+    flex: 0.2;
+    height: 100vh;
+    background-color: #040404;
+    color: gray;
+    min-width: 230px;
+    padding-left: 10px;
+  padding-right: 10px;
+}
+.Sidebar__logo{
+
+    margin: auto;
+    object-fit: contain;
+    height: 50px;
+    padding: 10px;
+}
