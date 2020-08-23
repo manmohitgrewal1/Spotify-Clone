@@ -1,0 +1,83 @@
+.Footer {
+  position: fixed;
+  width: 100%;
+  background-color: #282828;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+}
+.Footer__info {
+  display: flex;
+  flex: 0.3;
+  /* border: 1px solid black; */
+  /* align-self: center; */
+}
+
+.Footer__player {
+    flex: 0.4;
+    max-width: 300px;
+    /* padding: 0 100px; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.Footer__config {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /* padding-left: 10%; */
+
+    position: relative;
+    flex: 0.3;
+  }
+.Footer__info__artistInfo {
+  /* border: 1px solid black; */
+  /* width: 100%; */
+  position: relative;
+  left: 5%;
+  height: 50%;
+  top: 19%;
+
+}
+.fav{
+    position: relative;
+    top: 33%;
+    left: 13%;
+}
+.Footer__info__artistInfo > h5{
+    bottom: 10%;
+    position: relative;
+}
+.Footer__info__artistInfo > h6{
+    bottom: 45%;
+    position: relative;
+    color: #848484;;
+}
+
+
+.player__progress {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.Footer__config_vol {
+  display: flex;
+  width: 50%;
+  /* border: 1px solid black; */
+  position: relative;
+  transform: translate(71%, 127%);
+}
+.Footer__info_cover {
+  height: 60px;
+  position: relative;
+  transform: translate(5%, 40%);
+}
