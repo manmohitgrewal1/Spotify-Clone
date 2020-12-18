@@ -16,7 +16,6 @@ function App() {
 
     if (_token) {
       spotify.setAccessToken(_token);
-      // console.log("🦈"._token);
 
       // Setting token in DataLayer: state container
       dispatch({
@@ -27,9 +26,7 @@ function App() {
       spotify.play({
         uris: ["spotify:track:5UKYX8eywMafGPVzBlxsed"]
       }).then((res)=>{
-        console.log( "💮 ", res)
       })
-      // console.log(" 🀄 ", spotify.getMyRecentlyPlayedTracks());
       spotify.getMyTopTracks().then((li) => {
         dispatch({
           type:"SET_TRACKS",
